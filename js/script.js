@@ -97,7 +97,20 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeLightbox();
     initializeContactForm();
     initializeScrollEffects();
+    initializeHeroEffects();
 });
+
+// Hero section effects
+function initializeHeroEffects() {
+    const heroTitle = document.querySelector('.hero-title');
+    
+    // Animate hero title on load
+    setTimeout(() => {
+        if (heroTitle) {
+            heroTitle.classList.add('animate');
+        }
+    }, 500);
+}
 
 // Navigation toggle
 function initializeNavigation() {
