@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анатолій - Фотограф | Чернівці</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Анатолій</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Головна</a>
+                <a href="#portfolio" class="nav-link">Портфоліо</a>
+                <a href="#about" class="nav-link">Про мене</a>
+                <a href="#testimonials" class="nav-link">Відгуки</a>
+                <a href="#contact" class="nav-link">Контакти</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Створюю фото, на яких ти собі подобаєшся</h1>
+                <p class="hero-subtitle">Весільний та подієвий фотограф у Чернівцях</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">Переглянути роботи</a>
+                    <a href="https://t.me/anatoly_photo" class="btn btn-secondary" target="_blank">
+                        <i class="fab fa-telegram"></i> Замовити зйомку
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-photo.jpg" alt="Анатолій - Фотограф">
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Прокрутіть вниз</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Портфоліо</h2>
+            <div class="portfolio-tabs">
+                <button class="tab-btn active" data-category="all">Всі роботи</button>
+                <button class="tab-btn" data-category="wedding">Весілля</button>
+                <button class="tab-btn" data-category="events">Події</button>
+                <button class="tab-btn" data-category="portraits">Портрети</button>
+            </div>
+            <div class="portfolio-grid" id="portfolio-grid">
+                <!-- Portfolio items will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/anatoly-portrait.jpg" alt="Анатолій">
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">Про мене</h2>
+                    <p>Привіт! Мене звати Анатолій, і я фотограф з Чернівців з понад 8-річним досвідом у весільній та подієвій фотографії.</p>
+                    <p>Моя філософія проста: кожен кадр має розповідати історію, передавати емоції та зберігати найцінніші моменти вашого життя. Я спеціалізуюся на природній, емоційній фотографії, яка відображає справжню красу та щирість моментів.</p>
+                    <p>Працюю в стилі репортажної фотографії з елементами художньої постановки, створюючи унікальні кадри, які ви будете переглядати роками з теплотою в серці.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">200+</span>
+                            <span class="stat-label">Весіль</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">8</span>
+                            <span class="stat-label">Років досвіду</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Щасливих клієнтів</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Відгуки клієнтів</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Анатолій зробив наше весілля незабутнім! Кожне фото передає емоції того дня. Дуже професійний підхід і чудові результати."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>Марія та Олександр</strong>
+                        <span>Весілля 2023</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Фотосесія пройшла легко і природно. Анатолій вміє створити комфортну атмосферу і ловить найкращі моменти."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>Катерина</strong>
+                        <span>Портретна зйомка</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Дякуємо за чудові фото з нашого корпоративу! Всі гості в захваті від якості та стилю зйомки."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>Компанія "Успіх"</strong>
+                        <span>Корпоративна подія</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Зв'яжіться зі мною</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Готові створити щось прекрасне разом?</h3>
+                    <p>Напишіть мені, і ми обговоримо деталі вашої зйомки. Я завжди радий новим проектам та цікавим ідеям!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Чернівці, Україна</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+380 XX XXX XX XX</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>anatoly.photo@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://t.me/anatoly_photo" target="_blank" class="social-link">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Ваше ім'я" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Ваш емейл" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Ваше повідомлення" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Надіслати повідомлення</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Анатолій. Всі права захищені.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close">&times;</span>
+            <img src="" alt="" id="lightbox-img">
+            <div class="lightbox-nav">
+                <button class="lightbox-prev">&#8249;</button>
+                <button class="lightbox-next">&#8250;</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
